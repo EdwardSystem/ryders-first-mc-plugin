@@ -7,7 +7,7 @@ public final class RydersFirstPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        System.out.println("ryders cool");
+        getLogger().info("TEST WE R COOL");
         getLogger().info("HELLO RYDER STOINLKS");
     }
 

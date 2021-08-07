@@ -1,0 +1,8 @@
+name: RydersFirstPlugin
+version: ${project.version}
+main: com.edwardsystems.rydersfirstplugin.RydersFirstPlugin
+api-version: 1.17
+load: STARTUP
+authors: [ Ryder ]
+description: Ryders first plugin
+website: null

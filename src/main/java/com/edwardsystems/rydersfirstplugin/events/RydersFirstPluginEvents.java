@@ -22,7 +22,7 @@ public class RydersFirstPluginEvents implements Listener {
         Player player = event.getPlayer();
         int x = player.getLocation().getBlockX();
         int y = player.getLocation().getBlockY();
-        int z = player.getLocation().getBlockX();
+        int z = player.getLocation().getBlockZ();
 
         Material block = player.getWorld().getBlockAt(x, y-1, z).getType();
         if (block == Material.STONE) {

@@ -6,3 +6,12 @@ load: STARTUP
 authors: [ Ryder ]
 description: Ryders first plugin
 website: null
+commands:
+  heal:
+    description: Heals player to max health.
+    usage: /<command>
+    aliases: [healing, healme, healmax]
+  feed:
+    description: Feeds player to max saturation.
+    usage: /<command>
+    aliases: [feedme, eat, eating, nom, num]
